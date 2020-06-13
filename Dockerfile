@@ -6,7 +6,7 @@ ENV LANG C.UTF-8
 
 # Enable cross-build for aarch64
 COPY ./vendor/qemu-bin /usr/bin/
-RUN [ "cross-build-start" ]
+# RUN [ "cross-build-start" ]
 
 # Set the versions
 ENV DOCKER_COMPOSE_VER 1.22.0
